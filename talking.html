@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talking Computer</title>
+    <style>
+        body{
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+        #text{
+            height: 50vh;
+            width: 100%;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <textarea  id="text"></textarea>
+    <br>
+    <label for="speed">speed</label>
+    <input type="number" name="speed" min=".5" max="2.5" id="speed" step=".2" value="1">
+    <button id="one">Play</button>
+    <button id="two">Pause</button>
+    <button id="three">Stop</button>
+</body>
+</html>
